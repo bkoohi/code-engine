@@ -178,13 +178,29 @@ Output
 	
 3.5 Login in Container registery
 ```
-ibmcloud cr login
+ibmcloud cr region-set global
 ```
 output:
 ```
-Logging 'podman' in to 'ca.icr.io'...
-Logged in to 'ca.icr.io'.
+The region is set to 'global', the registry is 'icr.io'.
 
 OK
 ```
+For additional help on setting Container registery, please see https://cloud.ibm.com/registry/start
 	
+3.6 Create a name space for code-engine
+```
+ibmcloud cr namespace-add code-engine-space
+```
+
+3.7 Tag the image with your container registry's namespace/repository name.
+```
+podman tag mean-stack:v1.0.0 icr.io/code-engine-space/mean-stack
+	
+```
+
+3.8 Push the image.
+```
+podman push icr.io/code-engine-space/mean-stack
+```
+
