@@ -49,7 +49,7 @@ This tutorial requires:
 
 For IBM Cloud CLI plugins setup, please follow these instructions: https://cloud.ibm.com/docs/solution-tutorials?topic=solution-tutorials-tutorials
 
-## Lab 1- Deploy Hello World sample app 
+### Lab 1- Deploy Hello World sample app 
 The objective of this lab is to deploy a simple hello world http container app on-demand in code engine. 
 In traditional container app deployment, there is a need to deploy an IKS or RedHat Kubernetes cluster to host a container app. Using code engine services in IBM Cloud, container app could run on demand upon application access request by users.
 
@@ -118,7 +118,8 @@ https://cloud.ibm.com/codeengine/projects
    
 1.11 Delete projects will stay in the backend system for 7 days and the same project name cannot be reused. If there is a need to reuse the same project name then you need to reclaim the project under "Project reclamations"
    
-## Lab 2- Build and deploy a sample app 
+
+### Lab 2- Build and deploy a sample app 
 The objective of this lab is to build a container image locally and then deploy it in code engine. 
 
      Deploy a container application image and then deploy it in Code Engine.
