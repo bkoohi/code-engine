@@ -42,7 +42,7 @@ First time users of ibm cloud need to create a new ibm cloud id. Consult with yo
 
 ## Lab 1- Deploy Hello World sample app 
 The objective of this lab is to deploy a simple hello world http container app on-demand in code engine. 
-In traditional container app deployment, there is a need to deploy an IKS or RedHat Kubernetes cluster to host a container app. Using code engine services in IBM Cloud, container app could run on demain upon access by users.
+In traditional container app deployment, there is a need to deploy an IKS or RedHat Kubernetes cluster to host a container app. Using code engine services in IBM Cloud, container app could run on demand upon application access request by users.
 
      Deploy a hello world container application in Code Engine servessless service in IBM Cloud.
 
