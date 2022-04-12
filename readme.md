@@ -41,11 +41,11 @@ First time users of ibm cloud need to create a new ibm cloud id. Consult with yo
 
 This tutorial requires:
 
-    * IBM Cloud CLI - This CLI tool will enable you to interact with IBM Cloud.
+    -IBM Cloud CLI - This CLI tool will enable you to interact with IBM Cloud.
         code-engine/ce plugin (code-engine/ce) - Plugins extend the capabilities of the IBM Cloud CLI with commands specific to a service. The Code      Engine plugin will give you access to Code Engine commands on IBM Cloud.
-    * Optional Container Registry plugin (container-registry)
-    * git to clone source code repository.
-    * Optional, if you want to test running the app locally you will need to install Node.js.
+    -Optional Container Registry plugin (container-registry)
+    -git to clone source code repository.
+    -Optional, if you want to test running the app locally you will need to install Node.js.
 
 For IBM Cloud CLI plugins setup, please follow these instructions: https://cloud.ibm.com/docs/solution-tutorials?topic=solution-tutorials-tutorials
 
