@@ -4,7 +4,8 @@ The objective of these labs are to demonstrate how to deploy sample application 
 
      Deploy a hello world container application in Code Engine 
     
-
+Additional IBM Cloud solution tutotials can be access from this link:
+https://cloud.ibm.com/docs/solution-tutorials?topic=solution-tutorials-scalable-webapp-kubernetes
 
 ## Lab preparation 
 If your userid and environment have not been setup already for these labs then follow these instructions for the setup of the initial Lab environment.
@@ -38,6 +39,14 @@ Users need to go to their notification section to accept the invite:
 https://cloud.ibm.com/notifications
 First time users of ibm cloud need to create a new ibm cloud id. Consult with your ibm contact for first time ID creation ( https://cloud.ibm.com/registration ) 
 
+This tutorial requires:
+
+    * IBM Cloud CLI - This CLI tool will enable you to interact with IBM Cloud.
+        code-engine/ce plugin (code-engine/ce) - Plugins extend the capabilities of the IBM Cloud CLI with commands specific to a service. The Code      Engine plugin will give you access to Code Engine commands on IBM Cloud.
+    * Optional Container Registry plugin (container-registry)
+    * git to clone source code repository.
+    * Optional, if you want to test running the app locally you will need to install Node.js.
+
 
 
 ## Lab 1- Deploy Hello World sample app 
@@ -46,8 +55,7 @@ In traditional container app deployment, there is a need to deploy an IKS or Red
 
      Deploy a hello world container application in Code Engine servessless service in IBM Cloud.
 
-Additional IBM Cloud solution tutotials can be access from this link:
-https://cloud.ibm.com/docs/solution-tutorials?topic=solution-tutorials-scalable-webapp-kubernetes
+
 
 1.1 Login in IBM Cloud and access the code engine service:
 ```
@@ -110,3 +118,15 @@ https://cloud.ibm.com/codeengine/projects
    
 1.11 Delete projects will stay in the backend system for 7 days and the same project name cannot be reused. If there is a need to reuse the same project name then you need to reclaim the project under "Project reclamations"
    
+## Lab 2- Build and deploy a sample app 
+The objective of this lab is to build a container image locally and then deploy it in code engine. 
+
+     Deploy a container application image and then deploy it in Code Engine.
+
+
+1.1 Login in IBM Cloud and access the code engine service:
+```
+https://cloud.ibm.com/codeengine/overview
+```
+	
+	https://github.com/IBM-Cloud/nodejs-MEAN-stack
