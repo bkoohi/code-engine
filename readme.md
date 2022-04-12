@@ -170,9 +170,21 @@ Setting up app middleware...
 Setting up app routes...
 Application running at http://localhost:8080
 ```
-3.4 Open up app link ( http://localhost:8080 ) in your browser
+3.4 Open up app link ( http://localhost:8080 ) in your browser:
+
+Output
+
 ![plot](https://github.com/bkoohi/code-engine/blob/main/images/Screen%20Shot%202022-04-12%20at%205.20.54%20PM.png)
 	
-3.5
+3.5 Login in Container registery
+```
+ibmcloud cr login
+```
+output:
+```
+Logging 'podman' in to 'ca.icr.io'...
+Logged in to 'ca.icr.io'.
 
+OK
+```
 	
