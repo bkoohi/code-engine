@@ -125,9 +125,6 @@ The objective of this lab is to build a container image locally and then deploy 
      Deploy a container application image and then deploy it in Code Engine.
 
 
-1.1 Login in IBM Cloud and access the code engine service:
-```
-https://cloud.ibm.com/codeengine/overview
-```
+https://cloud.ibm.com/docs/solution-tutorials?topic=solution-tutorials-mean-stack
 	
-	https://github.com/IBM-Cloud/nodejs-MEAN-stack
+### Lab 3- Build and deploy a sample app 
