@@ -142,4 +142,36 @@ The objective of this lab is to build a container image locally and then deploy 
 
      Deploy a container application image and then deploy it in Code Engine.
 
+Lab Preparation
+	- Install Docker or Podman these instructions https://podman.io/getting-started/installation
+
+3.1 Complete Step 1 & 2 from previous Node.js lab
+
+	https://cloud.ibm.com/docs/solution-tutorials?topic=solution-tutorials-mean-stack
+	
+3.2  Build the container image:
+```
+ podman build . -t mean-stack:v1.0.0
+```	
+
+3.3 Test running container image locally:
+```
+ docker run -p 8080:8080 --env-file .env -ti mean-stack:v1.0.0 
+```
+Output:	
+```
+> mean-boilerplate-ibm-cloud@1.1.0 start
+> node server.js
+
+Connecting to database located at mongodb://ibm_cloud_608ef153_4be1_42ae_a541_fadc7b23f92f:ce2db9779a26d3261e0503d3d7233b008d5fb6f0408f419e4c7954fca67eb2b3@d04258d0-fdd3-40a5-8e3c-958d8fd90f8e-0.c0v4phir0ah9ul9trho0.databases.appdomain.cloud:30922,d04258d0-fdd3-40a5-8e3c-958d8fd90f8e-1.c0v4phir0ah9ul9trho0.databases.appdomain.cloud:30922,d04258d0-fdd3-40a5-8e3c-958d8fd90f8e-2.c0v4phir0ah9ul9trho0.databases.appdomain.cloud:30922/ibmclouddb?authSource=admin&replicaSet=replset...
+Connected to database.
+Configuring passport authentication...
+Setting up app middleware...
+Setting up app routes...
+Application running at http://localhost:8080
+```
+3.4 Open up link in your browser
+```
+http://localhost:8080
+```
 	
