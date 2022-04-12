@@ -1,7 +1,12 @@
 ### Code Engine Labs
 
+The objective of these labs are to demonstrate how to deploy sample application using IBM Cloud serverless sercvice, Code Engine. Ther are few labs in this excercie for deployment demonstration purposes:
 
-## 1- Lab preparation 
+     Deploy a hello world container application in Code Engine 
+    
+
+
+## Lab preparation 
 If your userid and environment have not been setup already for these labs then follow these instructions for the setup of the initial Lab environment.
 
 1- Create an access group in your IBM Cloud account: "Demo LABs"
