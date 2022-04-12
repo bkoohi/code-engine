@@ -127,4 +127,19 @@ The objective of this lab is to build a container image locally and then deploy 
 
 https://cloud.ibm.com/docs/solution-tutorials?topic=solution-tutorials-mean-stack
 	
-### Lab 3- Build and deploy a sample app 
+### Lab 3- Deploy a node.js app in Code Engine
+
+	This tutorial walks you through the creation of a web application using the popular MEAN stack. It is composed of a MongoDB, Express web framework, Angular front end framework and a Node.js runtime. You will learn how to run a MEAN starter locally, create and use a managed database-as-a-service (DBasS), deploy the app to IBM Cloud and scale both the runtime and database resources.
+Objectives
+
+    Create and run a starter Node.js app locally.
+    Create a managed Databases for MongoDB instance.
+    Deploy the Node.js app to the cloud using Code Engine.
+    Scale runtime CPU and memory resources.
+    Scale database memory and disk resources.
+
+Architecture diagram
+	
+
+![plot](https://cloud.ibm.com/docs-content/v1/content/18424ca4c7a916f2e2389b4fb009e891bdb76ff6/solution-tutorials/images/solution7/Architecture.png)
+
