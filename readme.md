@@ -172,6 +172,6 @@ Application running at http://localhost:8080
 ```
 3.4 Open up link in your browser
 ```
-http://localhost:8080
+(http://localhost:8080)
 ```
 	
