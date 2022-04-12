@@ -171,5 +171,8 @@ Setting up app routes...
 Application running at http://localhost:8080
 ```
 3.4 Open up app link ( http://localhost:8080 ) in your browser
+![plot](https://github.com/bkoohi/code-engine/blob/main/images/Screen%20Shot%202022-04-12%20at%205.20.54%20PM.png)
+	
+3.5
 
 	
