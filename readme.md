@@ -221,3 +221,50 @@ icr.io/code-engine-space/mean-stack   latest   25ace32e10a5   code-engine-space 
 OK
 % 
 ``
+3.10 Set the target resource group
+```
+ibmcloud target -g Default
+```
+	
+3.11 - Create a Code Engine project
+```
+ibmcloud code-engine project create --name mean-stack
+```
+	
+output:
+```
+Creating project 'mean-stack'...
+ID for project 'mean-stack' is '877c5b39-cef5-4754-add5-df87411baf0e'.
+Waiting for project 'mean-stack' to be active...
+Now selecting project 'mean-stack'.
+OK
+```
+3.12 Copy .env.example file to .env.
+```
+cp .env.example .env
+```
+	
+3.13 Update .env file and add a hash value for encryption under:
+```
+SESSIO_SECRET
+```
+
+3.14 Update MONGDB_URL and CERTIFICATE_BASE64 varilable in .env file, run the below command:
+
+```
+ibmcloud resource service-key mean-starter-mongodb-key --output json
+```
+	
+You can find the value required for MONGODB_URL under credentials -> connection -> mongodb -> composed and the value for CERTIFICATE_BASE64 under credentials -> connection -> mongodb -> certificate -> certificate_base64 in the returned JSON output.
+	
+
+3.15 Create a secret in the project that contains the keys/values from the .env file you used earlier to run the application locally, this secret will be consumed by the application running in the cloud. For more about secrets, see Setting up and using secrets and configmaps.
+```
+ibmcloud code-engine secret create --name mean-stack-secrets --from-env-file .env
+```
+
+3.16 Create the application based on the public container image that is based on the same source code downloaded from the https://github.com/IBM-Cloud/nodejs-MEAN-stack repository. If you are interested in the steps used to create this image, you can review create-container-image.md.
+
+```
+ibmcloud code-engine application create --name mean-stack-application --image icr.io/solution-tutorials/tutorial-mean-stack --env-from-secret mean-stack-secrets
+```
