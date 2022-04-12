@@ -204,3 +204,20 @@ podman tag mean-stack:v1.0.0 icr.io/code-engine-space/mean-stack
 podman push icr.io/code-engine-space/mean-stack
 ```
 
+3.9 List uploaded images to image repository
+
+```
+ibmcloud cr images
+```
+	
+Output:	
+```
+% ibmcloud cr images                                              
+Listing images...
+
+Repository                            Tag      Digest         Namespace           Created      Size    Security status   
+icr.io/code-engine-space/mean-stack   latest   25ace32e10a5   code-engine-space   1 hour ago   52 MB   No Issues   
+
+OK
+% 
+``
