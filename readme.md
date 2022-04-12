@@ -35,36 +35,9 @@ First time users of ibm cloud need to create a new ibm cloud id. Consult with yo
 
 
 
-
-
-## 3- Objectives
-
-Deploy a web application to the Kubernetes cluster.
-Monitor the logs and health of the cluster.
-Scale Kubernetes pods.
-
-
-![plot](https://github.com/bkoohi/webapp-iks-lab/blob/main/images/Screen%20Shot%202022-04-01%20at%2011.49.40%20AM.png)
-
-3.1- A developer downloads or clones a starter web application
-
-3.2- Optionally build the application to produce a container image
-
-3.3- Optionally the image is pushed to a namespace in the IBM Cloud Container Registry
-
-3.4- The application is deployed to a Kubernetes cluster
-
-3.5- Users access the application
-
-
 ## Lab 1- Deploy Hello World sample app 
 The objective of this lab is to deploy a simple hello world http container app on-demand in code engine. 
 In traditional container app deployment, there is a need to deploy an IKS or RedHat Kubernetes cluster to host a container app. Using code engine services in IBM Cloud, container app could run on demain upon access by users.
-
-Deploy a simple hello world HTTP App in Code Engine
-
-The purpose of this structured, no-cost, hands-on, instructor-led learning 
-experience is to demonstrate how to deploy a simple Hello world container app in a serverless service ( Code Engine ) in IBM Cloud.
 
      Deploy a hello world container application in Code Engine servessless service in IBM Cloud.
 
@@ -124,13 +97,11 @@ SHLVL=1
 z=Set env var 'SHOW' to see all variables
 ```
 
-## 2- Delete Hello World sample app 
-
-2.1 Go to list of code-engine projects
+1.9 In order to delete the project, go to list of code-engine projects
 https://cloud.ibm.com/codeengine/projects
 
-2.2 Select <your-initial>-hello-world app and then select Delete
+1.10 Select <your-initial>-hello-world app and then select Delete
    Enter your project name in the pannel and select Delete
    
-3.3 Delete projects will stay in the backend system for 7 days and the same project name cannot be reused. If there is a need to reuse the same project name then you need to reclaim the project under "Project reclamations"
+1.11 Delete projects will stay in the backend system for 7 days and the same project name cannot be reused. If there is a need to reuse the same project name then you need to reclaim the project under "Project reclamations"
    
