@@ -47,7 +47,7 @@ This tutorial requires:
     * git to clone source code repository.
     * Optional, if you want to test running the app locally you will need to install Node.js.
 
-
+For IBM Cloud CLI plugins setup, please follow these instructions: https://cloud.ibm.com/docs/solution-tutorials?topic=solution-tutorials-tutorials
 
 ## Lab 1- Deploy Hello World sample app 
 The objective of this lab is to deploy a simple hello world http container app on-demand in code engine. 
