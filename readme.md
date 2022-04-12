@@ -15,9 +15,13 @@ https://cloud.ibm.com/codeengine/overview
 1.2 In "Run a container image" section, select start creating
 
 1.3 Under "Select a project", select "Create Project"
+
     * In right hand pannel, under Location , set it to Dallas
+    
     * enter a project name "<your-initial>-hello-world" then select "Create".
+    
     * under Runtime Setting, set "Min number of instances" to 1.
+    
     It takes a minute to create the new project and then select your project from the menu
 
 1.4 Keep all other configuration with their default values and select Create on the right hand side pannel
