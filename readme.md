@@ -118,16 +118,8 @@ https://cloud.ibm.com/codeengine/projects
    
 1.11 Delete projects will stay in the backend system for 7 days and the same project name cannot be reused. If there is a need to reuse the same project name then you need to reclaim the project under "Project reclamations"
    
-
-### Lab 2- Build and deploy a sample app 
-The objective of this lab is to build a container image locally and then deploy it in code engine. 
-
-     Deploy a container application image and then deploy it in Code Engine.
-
-
-https://cloud.ibm.com/docs/solution-tutorials?topic=solution-tutorials-mean-stack
 	
-### Lab 3- Deploy a node.js app in Code Engine
+### Lab 2- Deploy a node.js app in Code Engine
 
 	This tutorial walks you through the creation of a web application using the popular MEAN stack. It is composed of a MongoDB, Express web framework, Angular front end framework and a Node.js runtime. You will learn how to run a MEAN starter locally, create and use a managed database-as-a-service (DBasS), deploy the app to IBM Cloud and scale both the runtime and database resources.
 Objectives
@@ -142,4 +134,12 @@ Architecture diagram
 	
 
 ![plot](https://cloud.ibm.com/docs-content/v1/content/18424ca4c7a916f2e2389b4fb009e891bdb76ff6/solution-tutorials/images/solution7/Architecture.png)
+	
+Pleae follow these lab instructions: https://cloud.ibm.com/docs/solution-tutorials?topic=solution-tutorials-mean-stack
+	
+### Lab 3- Build and deploy a sample app 
+The objective of this lab is to build a container image locally and then deploy it in code engine. 
 
+     Deploy a container application image and then deploy it in Code Engine.
+
+	
