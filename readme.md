@@ -267,5 +267,6 @@ ibmcloud code-engine secret create --name mean-stack --from-env-file .env
 3.16 Create the application based on the public container image that is based on the same source code downloaded from the https://github.com/IBM-Cloud/nodejs-MEAN-stack repository. If you are interested in the steps used to create this image, you can review create-container-image.md.
 
 ```
-ibmcloud code-engine application create --name mean-stack-application --image icr.io/solution-tutorials/tutorial-mean-stack --env-from-secret mean-stack-secrets
+nodejs-MEAN-stack % ibmcloud code-engine application create --name mean-stack --image icr.io/solution-tutorials/tutorial-mean-stack --env-from-secret mean-stack          
+
 ```
