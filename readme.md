@@ -221,7 +221,7 @@ icr.io/code-engine-space/mean-stack   latest   25ace32e10a5   code-engine-space 
 
 OK
 % 
-``
+```
 3.10 Set the target resource group
 ```
 ibmcloud target -g Default
