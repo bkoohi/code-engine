@@ -247,7 +247,7 @@ cp .env.example .env
 	
 3.13 Update .env file and add a hash value for encryption under:
 ```
-SESSIO_SECRET
+SESSION_SECRET
 ```
 
 3.14 Update MONGDB_URL and CERTIFICATE_BASE64 varilable in .env file, run the below command:
