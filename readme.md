@@ -270,3 +270,14 @@ ibmcloud code-engine secret create --name mean-stack --from-env-file .env
 nodejs-MEAN-stack % ibmcloud code-engine application create --name mean-stack --image icr.io/solution-tutorials/tutorial-mean-stack --env-from-secret mean-stack          
 
 ```
+Output:
+```
+Creating application 'mean-stack'...
+Configuration 'mean-stack' is waiting for a Revision to become ready.
+Ingress has not yet been reconciled.
+Waiting for load balancer to be ready.
+Run 'ibmcloud ce application get -n mean-stack' to check the application status.
+OK
+
+https://mean-stack.mq4no3mlt51.ca-tor.codeengine.appdomain.cloud
+```
