@@ -261,7 +261,7 @@ You can find the value required for MONGODB_URL under credentials -> connection 
 
 3.15 Create a secret in the project that contains the keys/values from the .env file you used earlier to run the application locally, this secret will be consumed by the application running in the cloud. For more about secrets, see Setting up and using secrets and configmaps.
 ```
-ibmcloud code-engine secret create --name mean-stack-secrets --from-env-file .env
+ibmcloud code-engine secret create --name mean-stack --from-env-file .env
 ```
 
 3.16 Create the application based on the public container image that is based on the same source code downloaded from the https://github.com/IBM-Cloud/nodejs-MEAN-stack repository. If you are interested in the steps used to create this image, you can review create-container-image.md.
