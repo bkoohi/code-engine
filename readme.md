@@ -147,7 +147,8 @@ Lab Preparation
 
 3.1 Complete Step 1 & 2 from previous Node.js lab
 
-	https://cloud.ibm.com/docs/solution-tutorials?topic=solution-tutorials-mean-stack
+https://cloud.ibm.com/docs/solution-tutorials?topic=solution-tutorials-mean-stack
+	
 	
 3.2  Build the container image:
 ```
